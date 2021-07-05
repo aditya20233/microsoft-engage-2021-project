@@ -1,13 +1,5 @@
 body{
-    /* background: #bdc3c7;  fallback for old brows//ers */
-    /* background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #727579, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* background-color: #000000;
-    background-image: linear-gradient(to left, #000000 0%, #7f8c8d 74%); */
-    background-color: #edf5ff;
- 
-
-    
+    background-color: #edf5ff; 
 }
 .stylink{
     color:black;
@@ -124,19 +116,11 @@ body{
     font-size: small;
     background-color:white!important;
 }
-  
-/* #chatip{
-    border-radius: 5% !important;
-    width: 80%;
-} */
+
 
 #chat-pane{
     margin-right: 5px !important;
     background-color: #dce2f2 !important;
-    /* background: #141E30;  /* fallback for old browsers */
-/* background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to bottom, #243B55, #141E30); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-
     border-radius: 5%;
     color: white;
 }
@@ -167,7 +151,6 @@ body{
     height:auto;
     max-height: 70vh;
     background-color :#dce2f2;
-    /* background-image :linear-gradient(to left, #000000 0%, #7f8c8d 74%); */
 }
 
 
@@ -195,15 +178,6 @@ body{
     position: fixed;
     width:15vw;
 }
-
-/* 
-.mirror-mode{
-    -ms-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-} */
-
 
 .sender-info{
     font-size: smaller;
@@ -322,8 +296,6 @@ body{
 
 #main-section{
     justify-content: center !important;
-   /* height: 80%; */
-   /* ///added */
 }
 
 @media (min-width:768px){
