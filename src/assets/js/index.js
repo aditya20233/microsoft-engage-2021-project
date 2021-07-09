@@ -55,3 +55,18 @@ window.addEventListener("load", () => {
     }
   });
 });
+
+
+let roomname;
+function aadi()
+{
+   roomname = document.querySelector("#nroom").value;
+   document.getElementById("joinr").href=roomname;
+
+}
+
+document.getElementById("joinr").addEventListener("click",()=>{
+  aadi();
+  console.log(roomname);
+})
+

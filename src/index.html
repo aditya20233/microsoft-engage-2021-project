@@ -23,7 +23,8 @@
     <body>
        
 <!-- --------------------------------------------------------------- -->
-        <div class="container-fluid" id='room-create'>
+
+<div class="container-fluid" id='room-create'>
             <div class="row">
                 <div class="col-12">
                     <div style="text-align: right!important;">
@@ -33,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row ">
                 <div class="text-center">
                     <img src="./assets/img/microsoft-team-logo.png" class="teamimage"/>
                 </div>
@@ -43,28 +44,36 @@
                 <div class="col-12 h2 mt-5 text-center" style="color:black;">Welcome Back!</div>
             </div>
             
-            <div class="row mt-2">
+            <div class="row">
                 <div class="col-12 text-center">
                     <span class="form-text small text-danger" id='err-msg'></span>
                 </div>
 
-                <div class="col-12 col-md-4 offset-md-4 mb-3">
+                <div class="col-12 col-md-4 offset-md-4 mb-1">
                     <label for="room-name" style="color:#494a4d;font-weight: 600;margin-bottom: 5px;">Room Name</label>
                     <input type="text" id='room-name' class="form-control rounded-0" placeholder="Room Name">
                 </div>
 
-                <div class="col-12 col-md-4 offset-md-4 mb-3">
+                <div class="col-12 col-md-4 offset-md-4 mb-2">
                     <label for="your-name" style="color:#494a4d;font-weight: 600;margin-bottom: 5px;">User Name</label>
                     <input type="text" id='your-name' class="form-control rounded-0" placeholder="User Name">
                 </div>
 
-                <div class="col-12 col-md-4 offset-md-4 mb-3">
+                <div class="col-12 col-md-4 offset-md-4">
                     <button id='create-room' class="btn button2 rounded-0">Create Room</button>
                 </div>
 
                 <div class="col-12 col-md-4 offset-md-4 mb-3 stylink" id='room-created'>
                     
                 </div>
+                <div class="col-12 col-md-4 offset-md-4 mb-3">
+                    <label for="your-name" style="color:#494a4d;font-weight: 600;margin-bottom: 5px;">Have Link</label>
+                    <input type="text" id='nroom' class="form-control rounded-0" placeholder="Enter Link Here">
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mb-3">
+                    <button class="btn button2 rounded-0"><a id='joinr' href="#">Join room</a></button>
+                </div>
+
             </div>
         </div>
 
