@@ -1,16 +1,20 @@
 
 import h from "./helpers.js";
 
+let item = document.querySelector("#secondnav");
+
 window.addEventListener("load", () => {
   const room = h.getQString(location.href, "room");
   const username = sessionStorage.getItem("username");
 
   if (!room) {
-    document.querySelector("#room-create").attributes.removeNamedItem("hidden");
+    // document.querySelector("#room-create").attributes.removeNamedItem("hidden");
+    // item.setAttribute("hidden",true);
   } else if (!username) {
     document
       .querySelector("#username-set")
       .attributes.removeNamedItem("hidden");
+      item.setAttribute("hidden",true);
   } else {
     var pc = [];
 

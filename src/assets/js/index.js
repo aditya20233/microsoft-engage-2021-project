@@ -56,17 +56,17 @@ window.addEventListener("load", () => {
   });
 });
 
-
+// If user already have link
 let roomname;
-function aadi()
+function existingroomjoin()
 {
-   roomname = document.querySelector("#nroom").value;
-   document.getElementById("joinr").href=roomname;
+   roomname = document.querySelector("#existroom").value;
+   document.getElementById("ejoinroom").href=roomname;
 
 }
 
-document.getElementById("joinr").addEventListener("click",()=>{
-  aadi();
+document.getElementById("ejoinroom").addEventListener("click",()=>{
+  existingroomjoin();
   console.log(roomname);
 })
 
