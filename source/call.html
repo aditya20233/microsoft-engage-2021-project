@@ -7,27 +7,25 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/8ebdc3706f.js" crossorigin="anonymous"></script>
-        <link rel='stylesheet' href='assets/css/app.css' type="text/css">
+        <link rel='stylesheet' href='public/css/app.css' type="text/css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
-        <script type="module" src='assets/js/rtc.js'></script>
-        <script type="module" src='assets/js/call.js'></script>
+        <script type="module" src='public/js/rtc.js'></script>
+        <script type="module" src='public/js/call.js'></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/7.3.0/adapter.min.js" integrity="sha256-2qQheewaqnZlXJ3RJRghVUwD/3fD9HNqxh4C+zvgmF4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js'></script>
         <script src='https://cdn.rawgit.com/yahoo/xss-filters/master/dist/xss-filters.js'></script>
-        <script src='assets/js/autolink.js'></script>
-        
-     
+        <script src='public/js/link.js'></script>
     </head>
 
     <body>
  
-
+        
         <!-- --------------------------------------------------------------- -->
         <div class="container-fluid" id='username-set' hidden>
             <div class="row mt-5">
                 <div class="text-center">
-                    <img src="./assets/img/microsoft-team-logo.png" class="teamimage"/>
+                    <img src="./public/img/microsoft-team-logo.png" class="teamimage"/>
                 </div>
 
             </div>
@@ -70,8 +68,6 @@
         </div>
         <nav class="navbar fixed-top rounded-0 navbg d-print-none" id="secondnav">
             <div class="text-white"></div>
-            
-
             <div class="pull-right room-comm">
                 <div id="display" class="clock">
                     00:00:00
@@ -130,5 +126,7 @@
         </div>
         
     </body>
-    <script src="./assets/js/clock.js"></script>
+    <script>
+    </script>
+    <script src="./public/js/timer.js"></script>
 </html>

@@ -1,4 +1,4 @@
-import helpers from "./helpers.js";
+import main from "./main.js";
 
 window.addEventListener("load", () => {
   //When the chat icon is clicked
@@ -22,12 +22,11 @@ window.addEventListener("load", () => {
       if (
         document.querySelector("#chat-pane").classList.contains("chat-opened")
       ) {
-        helpers.toggleChatNotificationBadge();
+        main.toggleChatNotificationBadge();
       }
     }, 300);
   });
 
- 
 
   //When the 'Enter room' button is clicked.
   document.getElementById("enter-room").addEventListener("click", (e) => {
@@ -52,13 +51,13 @@ window.addEventListener("load", () => {
 
   document.addEventListener("click", (e) => {
     if (e.target && e.target.classList.contains("expand-remote-video")) {
-      helpers.maximiseStream(e);
+      main.maximiseStream(e);
     } else if (e.target && e.target.classList.contains("mute-remote-mic")) {
-      helpers.singleStreamToggleMute(e);
+      main.singleStreamToggleMute(e);
     }
   });
 
   document.getElementById("closeModal").addEventListener("click", () => {
-    helpers.toggleModal("recording-options-modal", false);
+    main.toggleModal("recording-options-modal", false);
   });
 });

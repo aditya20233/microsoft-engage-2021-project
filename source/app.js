@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express');
 const app = express();
 const cookieParser = require('cookie-parser')
-let stream = require("./ws/stream");
+let stream = require("./stream/stream");
 let path = require("path");
 
 const {OAuth2Client} = require('google-auth-library');
@@ -12,10 +12,10 @@ const client = new OAuth2Client(CLIENT_ID);
 
 app.use(express.json());
 app.use(cookieParser());
-app.use("/assets", express.static(path.join(__dirname, "assets")));
+app.use("/public", express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/landing.html");
+  res.sendFile(__dirname + "/front.html");
 });
 
 app.post('/', (req,res)=>{

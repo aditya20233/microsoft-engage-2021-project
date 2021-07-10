@@ -1,4 +1,4 @@
-import helpers from "./helpers.js";
+import main from "./main.js";
 
 window.addEventListener("load", () => {
   //When the 'Create room" is button is clicked
@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
       //create room link
       let roomLink = `${location.origin}/call?room=${roomName
         .trim()
-        .replace(" ", "_")}_${helpers.generateRandomString()}`;
+        .replace(" ", "_")}_${main.generateRandomString()}`;
 
       //show message with link to room
       document.querySelector(
@@ -49,9 +49,9 @@ window.addEventListener("load", () => {
 
   document.addEventListener("click", (e) => {
     if (e.target && e.target.classList.contains("expand-remote-video")) {
-      helpers.maximiseStream(e);
+      main.maximiseStream(e);
     } else if (e.target && e.target.classList.contains("mute-remote-mic")) {
-      helpers.singleStreamToggleMute(e);
+      main.singleStreamToggleMute(e);
     }
   });
 });
