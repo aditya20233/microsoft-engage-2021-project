@@ -18,20 +18,21 @@ The aim of this project is to build  fully functional prototype with at least on
 
 ## Features
 
-- No download, plug-in entirely browser based
-- All browser compatiable
-- Fully Responsive (Mobile,Desktop ,Any devices)
-- Google Authentication
-- Unlimited number of conference rooms without call time limitation
-- Multiple Participant can join the meet at same time
-- Desktop and Mobile compatible
-- Optimized Room Url Sharing (share it to your participants, wait them to join)
-- WebCam Streaming
-- Audio Streaming
-- Screen Sharing to present documents, slides, and more...
-- Recording your Screen and Video
-- Chat with Emoji Picker & Private messages & Save the conversations
-- Full Screen Mode on mouse click on the Video element
+- `Google Authentication` User can sign in and sign out through its google account
+- `Video and Audio Streaming`
+- `Video,audio off and  on option`
+- `mute other participant` user can be able to mute other other participant 
+- `Share room url`Optimized Room Url Sharing (share it to your participants through mail, wait them to join)
+- `Screen Share`Screen Sharing to present documents, slides, and more...
+- `Unlimited number of conference rooms without call time limitation`
+- `Multiple Participant can join the meet at same time`
+- `Desktop and Mobile compatible`
+- `Recording`Record your Screen and Video
+- `Chat` Chat with friends, all partpicant see the messages
+- `Full Screen Mode` on click on the expand button on Video element full screen gets enabled
+- `Meeting Time` User can see the time for which you they are present in the meeting
+- `No download, plug-in entirely browser based`
+- `Fully Responsive (Mobile,Desktop ,Any devices)`
 
 ## Demo
 

@@ -114,7 +114,7 @@ export default {
                     urls: ["stun:stun.l.google.com:19302"]
                 },
                 {
-                    username: "adityasinghlodhi12@gmail.com",
+                    username: "aditya.lodhi.cd.civ19@itbhu.ac.in",
                     credential: "aditya@123",
                     url: [
                         "turn:numb.viagenie.ca"
