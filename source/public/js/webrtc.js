@@ -242,18 +242,9 @@ window.addEventListener("load", () => {
       main.shareScreen()
         .then((stream) => {
           main.toggleShareIcons(true);
-
-          //disable the video toggle btns while sharing screen. This is to ensure clicking on the btn does not interfere with the screen sharing
-          //It will be enabled was user stopped sharing screen
           main.toggleVideoBtnDisabled(true);
-
-          //save my screen stream
           screen = stream;
-
-          //share the new stream with all partners
           broadcastNewTracks(stream, "video", false);
-
-          //When the stop sharing button shown by the browser is clicked
           screen.getVideoTracks()[0].addEventListener("ended", () => {
             stopSharingScreen();
           });
