@@ -10,11 +10,11 @@ Introduction
 
 The aim of this project is to build  fully functional prototype with at least one mandatory functionality - a minimum of two participants should be able connect with each other using your product to have a video conversation.
 
-## https://aditya20233.herokuapp.com/
+## https://engage2021aditya.herokuapp.com/
 
 <br>
 
-[![mirotalk](src/assets/img/heroku.png)](https://aditya20233.herokuapp.com/)
+[![aditya](source/public/img/heroku.png)](https://engage2021aditya.herokuapp.com/)
 
 ## Features
 
@@ -28,7 +28,7 @@ The aim of this project is to build  fully functional prototype with at least on
 - `Multiple Participant can join the meet at same time`
 - `Desktop and Mobile compatible`
 - `Recording`Record your Screen and Video
-- `Chat` Chat with friends, all partpicant see the messages
+- `Chat` Chat with friends, all partpicant can see the messages also when any participant send the messages all other participant get the `new` in chat icon
 - `Full Screen Mode` on click on the expand button on Video element full screen gets enabled
 - `Meeting Time` User can see the time for which you they are present in the meeting
 - `No download, plug-in entirely browser based`
@@ -36,7 +36,7 @@ The aim of this project is to build  fully functional prototype with at least on
 
 ## Demo
 
-- `Open`https://aditya20233.herokuapp.com/ 
+- `Open`https://engage2021aditya.herokuapp.com/ 
 - `Pick` your personal Room name and `Join To Room`
 - `Allow` to use the camera and microphone
 - `Share` the Room URL and `Wait` someone to join for video conference
@@ -74,5 +74,11 @@ npm start
 
 - Open http://localhost:3000 in browser
 
----
-<p align="center"> Made by <a href="https://www.linkedin.com/in/aditya-lodhi-bb2212189/">Aditya Lodhi</a></p>
+
+## To know more about the projects [click here](https://drive.google.com/file/d/1GxYL9gVBck6uYGer2LmrqhdJZSkbQ0zq/view?usp=sharing)
+
+## References
+- https://webrtc.org/getting-started/overview
+- https://developers.google.com/identity/sign-in/web/sign-in
+- https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Connectivity
+
