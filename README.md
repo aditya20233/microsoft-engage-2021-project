@@ -14,7 +14,7 @@ https://engage2021aditya.herokuapp.com/
 
 <br>
 
-[![aditya](source/public/img/heroku.png)](https://engage2021aditya.herokuapp.com/)
+[![aditya](source/public/img/heroku.png)](https://microsoftengage2021.onrender.com)
 
 ## Features
 
@@ -36,7 +36,7 @@ https://engage2021aditya.herokuapp.com/
 
 ## Demo
 
-- `Open` https://engage2021aditya.herokuapp.com/
+- `Open` (https://microsoftengage2021.onrender.com)
 - `Pick` your personal Room name and `Join To Room`
 - `Allow` to use the camera and microphone
 - `Share` the Room URL and `Wait` someone to join for video conference
